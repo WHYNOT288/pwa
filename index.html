@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Курсы по ремонту телефонов</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+  <script>
+    if ('serviceWorker' in navigator){
+      navigator.serviceWorker.register('sw.js', {scope: '/'});
+    }
+</script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="nav-list">
+	  <li class="logo"><a href="index.html"><img src="logo.png" alt="Логотип"></a></li>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="about.html">О школе</a></li>
+        <li><a href="programs.php">Программы обучения</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="content">
+    <h1 class="heading">Хотите обучиться ремонту электроники?</h1>
+		<p class="text">Наши специалисты поделятся опытом и научать вас делать качественный и сложный ремонт</p>
+	    
+    <div class="main-image">
+      <img src="course1.jpg" alt="Главное изображение">
+    </div>
+	<p class="text">Мы предлагаем курсы по ремонту телефонов, где вы сможете освоить все необходимые навыки для успешной карьеры в этой области.</p>
+    <p class="text">Присоединяйтесь к нам и станьте профессионалом в ремонте мобильных устройств!</p>
+  </div>
+
+  <footer>
+    <div class="contact-info">
+      <p class="text">Телефон:  8(950)-052-61-53</p>
+      <p class="text">Email: artem.fedorov.10@list.ru</p>
+    </div>
+  </footer>
+</body>
+</html>
